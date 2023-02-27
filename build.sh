@@ -1,0 +1,1 @@
+structurizr-site-generatr generate-site -w workspace.dsl -a doc/deliverables/ -o dist
