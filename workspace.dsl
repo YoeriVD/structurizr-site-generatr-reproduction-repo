@@ -7,9 +7,9 @@ workspace "Eggceptional" "Architectural view of the system" {
         /* define personas and systems */
 
 
-        mySystem = softwareSystem "My System" "some system" {
-            cont = container "My Container" "Some container"
-            db = container "Database" "Stores all the things" "" "Database,red"
+        mySystem = softwareSystem "My System" "some system" ""{
+            cont = container "My Container" "Some container" "" "existing_system"
+            db = container "Database" "Stores all the things" "" "Database"
         }
 
 

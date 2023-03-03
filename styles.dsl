@@ -1,5 +1,5 @@
 styles {
-    relationship "red" {
+    relationship "existing_system" {
         color #EE0000
     }
     element "vaag" {
