@@ -9,6 +9,7 @@ workspace "Eggceptional" "Architectural view of the system" {
 
         mySystem = softwareSystem "My System" "some system" {
             cont = container "My Container" "Some container"
+            db = container "Database" "Stores all the things" "" "Database,red"
         }
 
 
