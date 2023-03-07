@@ -53,6 +53,9 @@ workspace "Eggceptional" "Architectural view of the system" {
         themes default "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json"
         properties {
             "c4plantuml.tags" "true"
+            "c4plantuml.elementProperties" "true"
+            "structurizr.style.colors.primary" "#485fc7"
+            "structurizr.style.colors.secondary" "#ffffff"
         }
 
         systemlandscape "SystemLandscape" {
